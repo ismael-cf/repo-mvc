@@ -1,0 +1,149 @@
+ Descripción general
+Este proyecto implementa las cuatro operaciones básicas de un CRUD:
+✅ Crear
+✅ Leer
+✅ Actualizar
+✅ Eliminar
+
+Utiliza la arquitectura Modelo-Vista-Controlador (MVC) para separar la lógica de negocio, la presentación y el control de flujo.
+
+La aplicación muestra un listado de productos almacenados en una base de datos y permite administrar registros mediante una interfaz gráfica web.
+
+📁 Estructura del proyecto
+El proyecto está organizado en dos capas principales:
+
+Pública (public) → Recursos visibles para el cliente.
+
+Soporte (app) → Contiene la lógica del servidor (controladores, modelos, vistas).
+
+📂 Estructura de carpetas:
+
+/MVC
+ ├── .htaccess         # Configuración para enrutamiento
+ ├── app               # Lógica del servidor
+ │      ├── controladores   # Lógica de negocio (PHP)
+ │      ├── modelos         # Consultas a la base de datos
+ │      ├── vistas          # Renderización de la interfaz
+ │      ├── libs            # Clases auxiliares
+ │      └── inicio.php      # Inicialización del entorno
+ │
+ └── public            # Recursos accesibles por el cliente
+        ├── css            # Estilos
+        ├── img            # Imágenes
+        ├── js             # Scripts JavaScript
+        ├── .htaccess      # Redirección de peticiones
+        └── index.php      # Entrada principal (carga inicial)
+⚙️ Funcionamiento
+🛡️ Enrutamiento
+El archivo .htaccess controla el enrutamiento.
+📌 Redirige todas las peticiones a public/index.php.
+
+Ejemplo de URL genérica:
+
+http://localhost/MVC/
+Muestra la tabla con todos los productos.
+
+Ejemplo de URL especializada:
+http://localhost/MVC/productos/modificar/1
+productos → Controlador.
+
+modificar → Método.
+
+1 → ID del producto a modificar.
+
+🔥 Operaciones CRUD
+Crear:
+
+Agrega un nuevo producto a la base de datos.
+
+Ruta: /MVC/productos/alta
+
+Leer:
+
+Muestra la lista de productos.
+
+Ruta: /MVC/productos
+
+Actualizar:
+
+Modifica un producto existente.
+
+Ruta: /MVC/productos/modificar/{id}
+
+Eliminar:
+
+Borra un producto de la base de datos.
+
+Ruta: /MVC/productos/borrar/{id}
+
+🔧 Configuración del entorno
+Servidor:
+
+Apache con PHP activado (XAMPP, WAMP, MAMP, etc.).
+
+Base de datos:
+
+MySQL.
+
+Archivo de configuración: /app/modelos/ProductosModelo.php.
+
+Archivos clave:
+
+/public/index.php: punto de entrada principal.
+
+/app/inicio.php: carga la aplicación y llama al controlador principal.
+
+🚀 Ejecución del proyecto
+Iniciar el servidor:
+
+Ejecutar XAMPP o similar.
+
+Iniciar Apache y MySQL.
+
+Abrir en el navegador:
+http://localhost/MVC/
+Prueba las operaciones CRUD:
+
+Agregar un nuevo producto.
+
+Modificar registros existentes.
+
+Eliminar productos.
+
+📚 Glosario técnico
+MVC:
+Arquitectura que separa la lógica de negocio (Modelo), la presentación (Vista) y el control de flujo (Controlador).
+
+.htaccess:
+Archivo de configuración para el servidor Apache. Controla la redirección y evita el acceso no autorizado a archivos.
+
+URL amigable:
+URLs comprensibles que indican la acción realizada, como:
+
+http://localhost/MVC/productos/modificar/2
+
+
+🔍 Referencias
+Introducción a la programación orientada a objetos con PHP: 
+La programación orientada a objetos te permitirá hacer proyectos con PHP.
+Formato: Edición Kindle. ASIN ‏ : ‎ B07Z6KKLX1					
+
+Crear un patrón MVC con PHP y MySQL.
+Disponible en: <https://www.udemy.com/course/crear-un-patron-mvc-con-php-y-mysql/learn/lecture/12655444#overview>
+
+PHP MVC y Estructura en Carpetas (Proyecto MVC PHP)
+Disponible en: <https://github.com/velamds/PHP_MVC_Youtube?tab=readme-ov-file.>
+Disponible en: <https://www.youtube.com/@ElProfeSergio/videos>
+
+Qué es el archivo .htaccess: Guía completa.
+Disponible en: <https://www.hostinger.mx/tutoriales/que-es-el-archivo-htaccess>
+
+Disponible en: <https://www.php.net/manual/es/mysqli.construct.php>
+
+MVC en PHP || Como hacer un proyecto MVC basico en PHP
+Disponible en: https://www.youtube.com/watch?v=JWi4_8_d-RM&t=386s
+Consultado en: 25/03/2025
+
+MVC en nuestro proyecto con PHP y Composer 
+Disponible en: ttps://www.youtube.com/watch?v=suJCaXZwO0o
+Consultado en: 25/03/2025
