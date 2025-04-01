@@ -80,10 +80,6 @@ Estructura del proyecto
 
 La organización de carpetas sigue una estructura modular para garantizar mantenibilidad y escalabilidad:
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 0851c772b573cad17e77ee3fca69d66856412672
 ´´´
 /MVC
  ├── .htaccess         # Configuración para enrutamiento
@@ -102,18 +98,10 @@ La organización de carpetas sigue una estructura modular para garantizar manten
 ´´´
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 0851c772b573cad17e77ee3fca69d66856412672
 Referencias
 
 GitHub Docs. (s.f). Basic writing and formatting syntax. Recuperado de: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 Portal Andino. Guía de Markdown. Recuperado de: https://datosgobar.github.io/portal-andino/markdown-guide/
 
-<<<<<<< HEAD
 Alvarez, O. D. G., Larrea, N. P. L., & Valencia, M. V. R. (2022). Análisis comparativo de Patrones de Diseño de Software. Polo del Conocimiento: Revista científico-profesional, 7(7), 2146-2165. Recuperado de: https://dialnet.unirioja.es/descarga/articulo/9042927.pdf
-=======
-Alvarez, O. D. G., Larrea, N. P. L., & Valencia, M. V. R. (2022). Análisis comparativo de Patrones de Diseño de Software. Polo del Conocimiento: Revista científico-profesional, 7(7), 2146-2165. Recuperado de: https://dialnet.unirioja.es/descarga/articulo/9042927.pdf
->>>>>>> 0851c772b573cad17e77ee3fca69d66856412672
