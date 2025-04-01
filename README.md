@@ -1,5 +1,4 @@
 # repo-mvc
-# repo-mvc
 
 Proyecto CRUD en MVC
 
@@ -83,7 +82,6 @@ La organización de carpetas sigue una estructura modular para garantizar manten
 
 
 ´´´
-
 /MVC
  ├── .htaccess         # Configuración para enrutamiento
  ├── public            # Archivos accesibles desde el navegador
@@ -98,7 +96,6 @@ La organización de carpetas sigue una estructura modular para garantizar manten
  │      ├── libs            # Clases auxiliares
  │      ├── inicio.php      # Carga el controlador principal
  └── composer.json     # Dependencias del proyecto
-
 ´´´
 
 
