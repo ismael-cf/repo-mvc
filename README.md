@@ -99,6 +99,7 @@ La organización de carpetas sigue una estructura modular para garantizar manten
 ´´´
 
 
+
 Referencias
 
 GitHub Docs. (s.f). Basic writing and formatting syntax. Recuperado de: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
